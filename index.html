@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects Live Links</title>
+</head>
+
+<body
+    style="font-family: 'Poppins', sans-serif; background-color: #f4f7fc; color: #333; line-height: 1.6; margin: 0; padding: 0;">
+
+    <header style="background-color: #738cb6; color: white; text-align: center; padding: 10px;">
+        <h1 style="margin-bottom: 10px; font-size: 2rem;">My Live Projects</h1>
+    </header>
+
+    <main style="padding: 40px 10%;">
+        <!-- Card container -->
+        <div
+            style="background-color: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); max-width: 800px; margin: 0 auto;">
+            <section id="linktree" style="margin-bottom: 40px;">
+                <h2 style="font-size: 2rem; margin-bottom: 10px;">Linktree</h2>
+                <p style="font-size: 1.1rem; margin-bottom: 20px;">Visit my Linktree to explore all the links related to
+                    my projects and social media profiles.</p>
+                <a href="https://linktr.ee/surya_prakash_singh" target="_blank"
+                    style="text-decoration: none; color: #4481eb; font-weight: 600; font-size: 1.1rem;">Visit
+                    Linktree</a>
+            </section>
+
+            <section id="portfolio" style="margin-bottom: 40px;">
+                <h2 style="font-size: 2rem; margin-bottom: 10px;">My Portfolio</h2>
+                <p style="font-size: 1.1rem; margin-bottom: 20px;">Explore my personal portfolio, where I showcase my
+                    skills, experience, and various projects I've worked on.</p>
+                <a href="https://suryaprakashsingh.netlify.app/" target="_blank"
+                    style="text-decoration: none; color: #4481eb; font-weight: 600; font-size: 1.1rem;">Visit My
+                    Portfolio</a>
+            </section>
+
+            <section id="notesXpert" style="margin-bottom: 40px;">
+                <h2 style="font-size: 2rem; margin-bottom: 10px;">NotesXpert</h2>
+                <p style="font-size: 1.1rem; margin-bottom: 20px;">NotesXpert is an application that helps you organize
+                    your notes and ideas in an easy-to-use interface.</p>
+                <a href="https://notesxpert.netlify.app/" target="_blank"
+                    style="text-decoration: none; color: #4481eb; font-weight: 600; font-size: 1.1rem;">Visit
+                    NotesXpert</a>
+            </section>
+
+            <section id="responsiveForm" style="margin-bottom: 40px;">
+                <h2 style="font-size: 2rem; margin-bottom: 10px;">Responsive Form</h2>
+                <p style="font-size: 1.1rem; margin-bottom: 20px;">Responsive Form is a user-friendly form that adapts
+                    to various screen sizes and devices.</p>
+                <a href="https://resposnive-signup-signup-form.netlify.app/" target="_blank"
+                    style="text-decoration: none; color: #4481eb; font-weight: 600; font-size: 1.1rem;">Visit Responsive
+                    Form</a>
+            </section>
+        </div>
+    </main>
+
+    <div class="copyright" style=" padding: 20px; text-align: center; background-color: #738cb6; color: white; ">
+        <p>© 2025 Copyright: Designed & Developed By - <a href="#" style="text-decoration: none; color: white;"> Surya
+                Prakash Singh</a></p>
+    </div>
+
+    <script>
+        // Responsive Design for smaller screens
+        window.addEventListener('resize', function () {
+            if (window.innerWidth < 768) {
+                document.querySelector('header h1').style.fontSize = '2rem';
+                document.querySelectorAll('section h2').forEach(function (el) {
+                    el.style.fontSize = '1.5rem';
+                });
+                document.querySelectorAll('section p').forEach(function (el) {
+                    el.style.fontSize = '1rem';
+                });
+            } else {
+                document.querySelector('header h1').style.fontSize = '2.5rem';
+                document.querySelectorAll('section h2').forEach(function (el) {
+                    el.style.fontSize = '2rem';
+                });
+                document.querySelectorAll('section p').forEach(function (el) {
+                    el.style.fontSize = '1.1rem';
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
